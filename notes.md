@@ -33,3 +33,12 @@
 * __sudo npx create-react-app my-react-redux-app__
 * You can use __redux__ directly or __reduxjs toolkit__
 * __sudo npm i -S @reduxjs/toolkit react-redux__
+* Install redux devtools chrome extension
+
+* set up the state;
+* set up the reducer function;
+* set up a store;  
+* You need to use only two functions; __createSlice__, __configureStore__
+
+* store needs to be included in all the components in your application
+* Use <Provider> to provide the store to your root component 
