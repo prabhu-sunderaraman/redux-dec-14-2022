@@ -1,4 +1,6 @@
-Introduction to Redux, Saga, Thunk
+## Introduction to Redux, Saga, Thunk
+
+``` javascript
 
 const instructorDetails = {
 	name: "Prabhu Sunderaraman",
@@ -6,5 +8,5 @@ const instructorDetails = {
 	books: ["Spring 3.0 Black Book", "Practical Ext JS 4"],
 	blog: "http://healthycoder.in"
 }
-
+```		
 
