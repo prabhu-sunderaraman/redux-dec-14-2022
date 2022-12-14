@@ -42,3 +42,17 @@
 
 * store needs to be included in all the components in your application
 * Use <Provider> to provide the store to your root component 
+
+## Middleware
+
+* Redux has synchronous operations
+* If you have an asynchronous operation like talking to BE, where do you write that code?
+* Bad option is write the async call to BE, inside your reducer
+* Here comes the middleware;
+* you can write the async talk to the BE, in a separate layer and delegate the job to the middleware
+* Component dispatches action to the store
+* Middleware takes up the action; invokes the async BE; gets the response
+* Forwards the response to the reducer in store
+* Two popular middleware libraries available
+* __Thunk__ and __Saga__
+* Thunk is the default middleware in Redux applications
