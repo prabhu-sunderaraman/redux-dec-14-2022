@@ -25,6 +25,7 @@ const subtract = (state, action) => {
 const add = (state, action) => {
     let { num1, num2 } = action.payload;
     let sum = num1 + num2;
+    //BAD DESIGN TO WRITE ASYNC CODE HERE
     
     //return {...state, ...action.payload, sum} //OLD SYNTAX
     
@@ -44,9 +45,9 @@ const additionSlice = createSlice({
 });
 
 //Internally createSlice creates actions based on the name and reducers
-//Here it creates an action with type "math/subtract"
+//Here it creates an action with type "mymath/subtract"
 const subtractionSlice = createSlice({
-    name: "math",
+    name: "mymath",
     initialState: initialState.subtraction,
     reducers: {
         subtract

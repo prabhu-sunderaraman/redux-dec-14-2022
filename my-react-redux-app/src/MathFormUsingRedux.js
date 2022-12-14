@@ -15,6 +15,9 @@ export function MathFormUsingRedux() {
     const [number2, setNumber2] = useState(0);
 
     const addButtonClicked = () => {
+        //OLD STYLE
+        //YOU CAN CALL THE BACKEND SERVICE AND GET THE OUTPUT
+        //Dispatch THE OUTPUT TO THE STORE
         dispatch(addActions.add({
             num1: number1,
             num2: number2

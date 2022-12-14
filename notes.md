@@ -33,7 +33,7 @@
 * __sudo npx create-react-app my-react-redux-app__
 * You can use __redux__ directly or __reduxjs toolkit__
 * __sudo npm i -S @reduxjs/toolkit react-redux__
-* Install redux devtools chrome extension
+* Install __redux devtools__ chrome extension
 
 * set up the state;
 * set up the reducer function;
